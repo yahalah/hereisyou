@@ -214,11 +214,15 @@ function setupChatWidget() {
   });
 }
 
-loadCsrf().then(() => {
+const init = () => {
   setupMegaMenu();
   setupDrawer();
   setupCookieBanner();
   bindContactForm();
   bindNewsletterForm();
   setupChatWidget();
-});
+};
+
+loadCsrf()
+  .catch(() => null)
+  .finally(init);
