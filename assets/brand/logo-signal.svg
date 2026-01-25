@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Hereisyou Digital logo signal">
+  <rect width="320" height="120" rx="24" fill="#0f172a"/>
+  <g fill="none" stroke="#34d399" stroke-width="6" stroke-linecap="round">
+    <path d="M56 84c10-24 26-38 52-44"/>
+    <path d="M56 84c16-14 32-22 58-24"/>
+    <path d="M56 84c18-6 36-8 64-8"/>
+  </g>
+  <circle cx="56" cy="84" r="8" fill="#34d399"/>
+  <text x="136" y="76" fill="#f8fafc" font-family="'Segoe UI',sans-serif" font-weight="600" font-size="28">Hereisyou</text>
+</svg>
