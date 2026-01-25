@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="Process diagram 4">
+  <rect width="640" height="220" rx="20" fill="#f8fafc"/>
+  <g fill="none" stroke="#cbd5f5" stroke-width="2">
+    <rect x="40" y="60" width="140" height="100" rx="16"/>
+    <rect x="250" y="60" width="140" height="100" rx="16"/>
+    <rect x="460" y="60" width="140" height="100" rx="16"/>
+  </g>
+  <path d="M180 110h70M390 110h70" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="110" cy="110" r="10" fill="#f97316"/>
+  <circle cx="320" cy="110" r="10" fill="#f59e0b"/>
+  <circle cx="530" cy="110" r="10" fill="#f97316"/>
+  <text x="70" y="150" font-size="14" font-family="'Segoe UI',sans-serif" fill="#1f2937">Discover</text>
+  <text x="280" y="150" font-size="14" font-family="'Segoe UI',sans-serif" fill="#1f2937">Deliver</text>
+  <text x="490" y="150" font-size="14" font-family="'Segoe UI',sans-serif" fill="#1f2937">Optimise</text>
+</svg>

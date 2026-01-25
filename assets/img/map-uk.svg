@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="UK offices map">
+  <rect width="640" height="360" rx="24" fill="#0f172a"/>
+  <path d="M160 90l80-20 120 30 60 80-40 110-120 40-110-60z" fill="#1c6ef2" opacity="0.2"/>
+  <circle cx="260" cy="120" r="10" fill="#24b47e"/>
+  <circle cx="310" cy="180" r="10" fill="#24b47e"/>
+  <circle cx="360" cy="230" r="10" fill="#24b47e"/>
+  <text x="240" y="110" font-size="14" fill="#f8fafc" font-family="'Segoe UI',sans-serif">Manchester</text>
+  <text x="290" y="170" font-size="14" fill="#f8fafc" font-family="'Segoe UI',sans-serif">London</text>
+  <text x="340" y="220" font-size="14" fill="#f8fafc" font-family="'Segoe UI',sans-serif">Bristol</text>
+</svg>

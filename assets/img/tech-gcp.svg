@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Tech Gcp illustration">
+  <rect width="640" height="360" rx="24" fill="#0f172a"/>
+  <rect x="40" y="40" width="560" height="280" rx="20" fill="#0b1b2b" stroke="#0ea5e9" stroke-width="3"/>
+  <circle cx="140" cy="140" r="38" fill="#0ea5e9"/>
+  <circle cx="220" cy="140" r="20" fill="#f97316"/>
+  <path d="M120 240h200" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 270h160" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <rect x="360" y="110" width="180" height="140" rx="16" fill="none" stroke="#f97316" stroke-width="4"/>
+  <path d="M360 230h180" stroke="#0ea5e9" stroke-width="5" stroke-linecap="round"/>
+</svg>

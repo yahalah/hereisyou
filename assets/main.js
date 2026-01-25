@@ -1,6 +1,7 @@
 const csrfEndpoint = '/api/csrf.php';
 const contactEndpoint = '/api/contact.php';
 const chatEndpoint = '/api/chat.php';
+const newsletterEndpoint = '/api/newsletter.php';
 
 const state = {
   csrfToken: null,
@@ -14,12 +15,31 @@ async function loadCsrf() {
   }
 }
 
-function setupNavToggle() {
-  const toggle = document.querySelector('[data-nav-toggle]');
-  const menu = document.querySelector('[data-nav-menu]');
-  if (!toggle || !menu) return;
+function setupDrawer() {
+  const toggle = document.querySelector('[data-drawer-toggle]');
+  const drawer = document.querySelector('[data-mobile-drawer]');
+  const close = document.querySelector('[data-drawer-close]');
+  if (!toggle || !drawer) return;
+
   toggle.addEventListener('click', () => {
-    menu.classList.toggle('active');
+    drawer.classList.add('active');
+  });
+  close?.addEventListener('click', () => {
+    drawer.classList.remove('active');
+  });
+
+  drawer.addEventListener('click', (event) => {
+    if (event.target === drawer) {
+      drawer.classList.remove('active');
+    }
+  });
+
+  drawer.querySelectorAll('[data-accordion]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const panel = btn.nextElementSibling;
+      if (!panel) return;
+      panel.classList.toggle('active');
+    });
   });
 }
 
@@ -83,6 +103,34 @@ function bindContactForm() {
   });
 }
 
+function bindNewsletterForm() {
+  const form = document.querySelector('[data-newsletter-form]');
+  if (!form) return;
+  const status = form.querySelector('[data-newsletter-status]');
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    status.textContent = '';
+    status.className = 'alert';
+    const payload = {
+      email: form.email.value.trim(),
+      company: form.company.value,
+      csrf_token: state.csrfToken,
+    };
+
+    const response = await fetch(newsletterEndpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const data = await response.json();
+    status.textContent = data.message;
+    status.classList.add(data.ok ? 'success' : 'error');
+    if (data.ok) {
+      form.reset();
+    }
+  });
+}
+
 function setupChatWidget() {
   const launcher = document.querySelector('[data-chat-launcher]');
   const widget = document.querySelector('[data-chat-widget]');
@@ -126,8 +174,9 @@ function setupChatWidget() {
 }
 
 loadCsrf().then(() => {
-  setupNavToggle();
+  setupDrawer();
   setupCookieBanner();
   bindContactForm();
+  bindNewsletterForm();
   setupChatWidget();
 });
