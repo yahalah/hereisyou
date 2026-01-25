@@ -1,0 +1,51 @@
+{
+  "primary": [
+    {"label": "Home", "url": "/index.html"},
+    {"label": "About Us", "url": "/about.html"},
+    {"label": "Blog", "url": "/blog/index.html"},
+    {"label": "Contact", "url": "/contact.html"}
+  ],
+  "dropdowns": {
+    "Software Services": [
+      {"label": "AI Services", "url": "/services/ai-services.html"},
+      {"label": "Mobile App Development", "url": "/services/mobile-app-development.html"},
+      {"label": "Web Application Development", "url": "/services/web-application-development.html"},
+      {"label": "Legacy Software Modernisation", "url": "/services/legacy-software-modernisation.html"},
+      {"label": "MVP Software Development", "url": "/services/mvp-software-development.html"},
+      {"label": "CTO as a Service", "url": "/services/cto-as-a-service.html"},
+      {"label": "Software Outsourcing", "url": "/services/software-outsourcing.html"},
+      {"label": "System Takeover", "url": "/services/system-takeover.html"},
+      {"label": "Software Security", "url": "/services/software-security.html"},
+      {"label": "Code Rescue", "url": "/services/code-rescue.html"},
+      {"label": "Digital Transformation", "url": "/services/digital-transformation.html"}
+    ],
+    "Technologies": [
+      {"label": "Web Application", "url": "/technologies/web-application.html"},
+      {"label": "Cloud Solutions", "url": "/technologies/cloud-solutions.html"},
+      {"label": "E-commerce & Payment Gateway Integration", "url": "/technologies/ecommerce-payment-gateway.html"},
+      {"label": "Artificial Intelligence & Machine Learning", "url": "/technologies/artificial-intelligence-machine-learning.html"},
+      {"label": "Mobile Application", "url": "/technologies/mobile-application.html"},
+      {"label": "Digital Transformation & IT Consulting", "url": "/technologies/digital-transformation-it-consulting.html"},
+      {"label": "Blockchain & Cryptocurrency", "url": "/technologies/blockchain-cryptocurrency.html"},
+      {"label": "Internet of Things (IoT)", "url": "/technologies/internet-of-things.html"},
+      {"label": "Augmented & Virtual Reality", "url": "/technologies/augmented-virtual-reality.html"},
+      {"label": "CAD & 3D Visualisation", "url": "/technologies/cad-3d-visualisation.html"}
+    ],
+    "Industries": [
+      {"label": "Oil & Gas Upstream", "url": "/industries/oil-gas-upstream.html"},
+      {"label": "Pharmaceutical Discovery", "url": "/industries/pharmaceutical-discovery.html"},
+      {"label": "Preventive & Curative Healthcare", "url": "/industries/preventive-curative-healthcare.html"},
+      {"label": "Risk Assessment and Policy Insurance", "url": "/industries/risk-assessment-policy-insurance.html"},
+      {"label": "Gaming and Simulation", "url": "/industries/gaming-simulation.html"},
+      {"label": "Maritime Shipping & Logistics", "url": "/industries/maritime-shipping-logistics.html"},
+      {"label": "Banking Integration", "url": "/industries/banking-integration.html"},
+      {"label": "Educational System and Policy Development", "url": "/industries/educational-system-policy-development.html"}
+    ]
+  },
+  "footer": [
+    {"label": "Become a Partner", "url": "/become-a-partner.html"},
+    {"label": "Privacy Notice", "url": "/privacy-notice.html"},
+    {"label": "Cookies Policy", "url": "/cookies-policy.html"},
+    {"label": "Terms of Service", "url": "/terms-of-service.html"}
+  ]
+}
