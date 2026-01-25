@@ -43,6 +43,47 @@ function setupDrawer() {
   });
 }
 
+function setupMegaMenu() {
+  const triggers = document.querySelectorAll('[data-mega-trigger]');
+  if (!triggers.length) return;
+
+  const closeMenus = () => {
+    triggers.forEach((trigger) => {
+      const item = trigger.closest('.nav-item');
+      if (!item) return;
+      item.classList.remove('open');
+      trigger.setAttribute('aria-expanded', 'false');
+    });
+  };
+
+  triggers.forEach((trigger) => {
+    const item = trigger.closest('.nav-item');
+    if (!item) return;
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.addEventListener('click', (event) => {
+      event.preventDefault();
+      const isOpen = item.classList.contains('open');
+      closeMenus();
+      if (!isOpen) {
+        item.classList.add('open');
+        trigger.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('.nav-item')) {
+      closeMenus();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeMenus();
+    }
+  });
+}
+
 function setupCookieBanner() {
   const banner = document.querySelector('[data-cookie-banner]');
   if (!banner) return;
@@ -174,6 +215,7 @@ function setupChatWidget() {
 }
 
 loadCsrf().then(() => {
+  setupMegaMenu();
   setupDrawer();
   setupCookieBanner();
   bindContactForm();

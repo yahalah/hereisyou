@@ -134,8 +134,7 @@ select:focus-visible {
   margin-bottom: 0.35rem;
 }
 
-.nav-item:hover .mega-menu,
-.nav-item:focus-within .mega-menu {
+.nav-item.open .mega-menu {
   display: grid;
 }
 
