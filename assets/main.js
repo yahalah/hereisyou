@@ -23,14 +23,17 @@ function setupDrawer() {
 
   toggle.addEventListener('click', () => {
     drawer.classList.add('active');
+    document.body.classList.add('drawer-open');
   });
   close?.addEventListener('click', () => {
     drawer.classList.remove('active');
+    document.body.classList.remove('drawer-open');
   });
 
   drawer.addEventListener('click', (event) => {
     if (event.target === drawer) {
       drawer.classList.remove('active');
+      document.body.classList.remove('drawer-open');
     }
   });
 
