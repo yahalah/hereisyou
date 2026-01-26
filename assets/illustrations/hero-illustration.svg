@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-label="Digital transformation illustration">
+  <rect width="560" height="360" rx="32" fill="#0f172a"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="3">
+    <path d="M80 120h160v100H80z"/>
+    <path d="M260 80h200v120H260z"/>
+    <path d="M260 220h200v60H260z"/>
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="120" cy="170" r="10"/>
+    <circle cx="180" cy="170" r="10"/>
+    <circle cx="320" cy="130" r="10"/>
+    <circle cx="400" cy="130" r="10"/>
+    <circle cx="320" cy="250" r="10"/>
+  </g>
+  <path d="M110 260h120" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M110 286h90" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Hereisyou Digital logo constellation">
+  <rect width="320" height="120" rx="24" fill="#111827"/>
+  <g fill="none" stroke="#60a5fa" stroke-width="3">
+    <path d="M52 70l30-28 28 18 24-26 34 30"/>
+  </g>
+  <g fill="#60a5fa">
+    <circle cx="52" cy="70" r="6"/>
+    <circle cx="82" cy="42" r="6"/>
+    <circle cx="110" cy="60" r="6"/>
+    <circle cx="134" cy="34" r="6"/>
+    <circle cx="168" cy="64" r="6"/>
+  </g>
+  <text x="190" y="74" fill="#f9fafb" font-family="'Segoe UI',sans-serif" font-weight="600" font-size="26">Hereisyou</text>
+</svg>

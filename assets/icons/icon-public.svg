@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Public sector">
+  <rect width="64" height="64" rx="16" fill="#f1f5f9"/>
+  <path d="M16 28l16-10 16 10" fill="none" stroke="#475569" stroke-width="3"/>
+  <path d="M20 28v18m8-18v18m8-18v18" stroke="#475569" stroke-width="3"/>
+  <path d="M16 46h32" stroke="#475569" stroke-width="3"/>
+</svg>

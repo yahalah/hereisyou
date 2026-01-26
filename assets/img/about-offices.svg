@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="About Offices illustration">
+  <defs>
+    <linearGradient id="g-about-offices" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c6ef2"/>
+      <stop offset="1" stop-color="#24b47e"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="28" fill="#0f172a"/>
+  <rect x="40" y="40" width="560" height="340" rx="24" fill="#0b1b2b" stroke="#1c6ef2" stroke-width="2"/>
+  <circle cx="140" cy="130" r="48" fill="url(#g-about-offices)"/>
+  <path d="M120 250h220" stroke="#24b47e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 280h180" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <rect x="380" y="110" width="160" height="140" rx="16" fill="none" stroke="#24b47e" stroke-width="4"/>
+  <circle cx="420" cy="150" r="12" fill="#1c6ef2"/>
+  <circle cx="460" cy="150" r="12" fill="#24b47e"/>
+  <circle cx="500" cy="150" r="12" fill="#f8fafc"/>
+  <path d="M380 280h160" stroke="#1c6ef2" stroke-width="6" stroke-linecap="round"/>
+</svg>

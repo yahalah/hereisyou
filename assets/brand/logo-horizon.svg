@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Hereisyou Digital logo horizon">
+  <defs>
+    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c6ef2"/>
+      <stop offset="1" stop-color="#24b47e"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="120" rx="24" fill="#0b1b2b"/>
+  <path d="M40 70c28-32 72-44 120-30 34 10 58 32 120 20" fill="none" stroke="url(#horizon)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="72" cy="46" r="14" fill="url(#horizon)"/>
+  <text x="120" y="78" fill="#f5f7fb" font-family="'Segoe UI',sans-serif" font-weight="600" font-size="28">Hereisyou</text>
+</svg>
